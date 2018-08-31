@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Warehouses /> action column should match snapshot 1`] = `undefined`;
+
+exports[`<Warehouses /> should map and pass orders to table component 1`] = `
+<withRouter(ItemList)
+  buttons={
+    Array [
+      Object {
+        "link": "/dashboard/warehouses/new",
+        "title": "New warehouse",
+      },
+    ]
+  }
+  columns={
+    Array [
+      Object {
+        "dataIndex": "id",
+        "key": "id",
+        "title": "ID",
+      },
+      Object {
+        "dataIndex": "name",
+        "key": "name",
+        "title": "Name",
+      },
+      Object {
+        "dataIndex": "export_class",
+        "key": "export_class",
+        "title": "Export class",
+      },
+      Object {
+        "dataIndex": "created_at",
+        "key": "created_at",
+        "title": "Created at",
+      },
+      Object {
+        "dataIndex": "stores",
+        "key": "stores",
+        "title": "Stores",
+      },
+      Object {
+        "dataIndex": "shipping_rates",
+        "key": "shipping_rates",
+        "title": "Shipping rates",
+      },
+      Object {
+        "dataIndex": "",
+        "key": "a",
+        "render": [Function],
+        "title": "Action",
+      },
+    ]
+  }
+  data={Array []}
+  loading={false}
+  title="Warehouses"
+/>
+`;
+
+exports[`<Warehouses /> should render properly 1`] = `
+<withRouter(ItemList)
+  buttons={
+    Array [
+      Object {
+        "link": "/dashboard/warehouses/new",
+        "title": "New warehouse",
+      },
+    ]
+  }
+  columns={
+    Array [
+      Object {
+        "dataIndex": "id",
+        "key": "id",
+        "title": "ID",
+      },
+      Object {
+        "dataIndex": "name",
+        "key": "name",
+        "title": "Name",
+      },
+      Object {
+        "dataIndex": "export_class",
+        "key": "export_class",
+        "title": "Export class",
+      },
+      Object {
+        "dataIndex": "created_at",
+        "key": "created_at",
+        "title": "Created at",
+      },
+      Object {
+        "dataIndex": "stores",
+        "key": "stores",
+        "title": "Stores",
+      },
+      Object {
+        "dataIndex": "shipping_rates",
+        "key": "shipping_rates",
+        "title": "Shipping rates",
+      },
+      Object {
+        "dataIndex": "",
+        "key": "a",
+        "render": [Function],
+        "title": "Action",
+      },
+    ]
+  }
+  data={Array []}
+  loading={false}
+  title="Warehouses"
+/>
+`;

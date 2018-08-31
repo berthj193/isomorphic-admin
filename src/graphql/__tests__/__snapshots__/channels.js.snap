@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`stores gql getListQuery() should return proper gql request 1`] = `
+"
+query {
+  channels {
+    id,
+    name,
+  }
+}"
+`;

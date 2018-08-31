@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LegalEntityForm /> should render properly 1`] = `
+<Form
+  hideRequiredMark={false}
+  layout="horizontal"
+  onSubmit={[Function]}
+  prefixCls="ant-form"
+>
+  <Field
+    component={[Function]}
+    label="Name"
+    name="name"
+    required={true}
+    validate={
+      Array [
+        [Function],
+      ]
+    }
+  />
+  <Field
+    component={[Function]}
+    label="VAT Number"
+    name="vat_number"
+  />
+  <FormSubmit />
+</Form>
+`;

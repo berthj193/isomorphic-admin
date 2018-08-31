@@ -1,0 +1,16 @@
+@import '../styles/colors.scss';
+
+.isoEmptyComponent {
+  min-height: 74vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    font-size: 36px;
+    font-weight: 300;
+    color: $grayscale-1;
+    line-height: 1.5;
+  }
+}

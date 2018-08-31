@@ -1,0 +1,23 @@
+.key-value-detail,
+.detail-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.key-value-detail-title {
+  &:after {
+    content: ':';
+    display: inline-block;
+  }
+}
+
+.key-value-detail-value {
+  margin-left: 8px;
+}
+
+.detail-list {
+  .detail-list-option {
+    display: block;
+  }
+}

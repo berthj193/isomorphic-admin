@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShippingRateForm /> should render properly 1`] = `
+<Form
+  hideRequiredMark={false}
+  layout="horizontal"
+  onSubmit={[Function]}
+  prefixCls="ant-form"
+>
+  <Field
+    component={[Function]}
+    label="Name"
+    name="name"
+    required={true}
+    validate={
+      Array [
+        [Function],
+      ]
+    }
+  />
+  <Field
+    component={[Function]}
+    label="Warehouse"
+    name="warehouse_id"
+    required={true}
+    validate={
+      Array [
+        [Function],
+      ]
+    }
+  />
+  <FormDivider />
+  <Field
+    component={[Function]}
+    label="Currency"
+    name="currency"
+    required={true}
+    validate={
+      Array [
+        [Function],
+      ]
+    }
+  />
+  <Field
+    component={[Function]}
+    label="Shipping price"
+    name="price_pence"
+    required={true}
+    validate={
+      Array [
+        [Function],
+        [Function],
+      ]
+    }
+  />
+  <FormDivider />
+  <Field
+    component={[Function]}
+    label="Country"
+    name="country"
+    placeholder="United Kingdom"
+    required={true}
+    validate={
+      Array [
+        [Function],
+      ]
+    }
+  />
+  <Field
+    component={[Function]}
+    label="Shipping code"
+    name="shipping_code"
+    placeholder="NW1 5LS"
+    required={true}
+    validate={
+      Array [
+        [Function],
+      ]
+    }
+  />
+  <FormDivider />
+  <Field
+    component={[Function]}
+    label="Premium"
+    name="premium"
+  />
+  <Field
+    component={[Function]}
+    label="Live"
+    name="live"
+  />
+  <FormSubmit />
+</Form>
+`;

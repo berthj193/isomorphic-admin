@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DeleteButton /> should render children, if they were passed 1`] = `
+<Popconfirm
+  cancelText="Cancel"
+  okText="Delete"
+  okType="primary"
+  onCancel={[Function]}
+  onConfirm={[Function]}
+  placement="bottom"
+  prefixCls="ant-popover"
+  title="Are you sure?"
+  transitionName="zoom-big"
+  trigger="click"
+>
+  <a>
+    Link!
+  </a>
+</Popconfirm>
+`;
+
+exports[`<DeleteButton /> should render icon on default 1`] = `
+<Popconfirm
+  cancelText="Cancel"
+  okText="Delete"
+  okType="primary"
+  onCancel={[Function]}
+  onConfirm={[Function]}
+  placement="bottom"
+  prefixCls="ant-popover"
+  title="Are you sure?"
+  transitionName="zoom-big"
+  trigger="click"
+>
+  <a
+    onClick={[Function]}
+  >
+    <Tooltip
+      arrowPointAtCenter={false}
+      autoAdjustOverflow={true}
+      mouseEnterDelay={0.1}
+      mouseLeaveDelay={0.1}
+      placement="top"
+      prefixCls="ant-tooltip"
+      title="Remove"
+      transitionName="zoom-big-fast"
+    >
+      <Icon
+        type="delete"
+      />
+    </Tooltip>
+  </a>
+</Popconfirm>
+`;

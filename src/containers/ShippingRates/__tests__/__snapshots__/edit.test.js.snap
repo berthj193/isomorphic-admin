@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditShippingRate /> should render properly 1`] = `
+<PageLoading
+  style={
+    Object {
+      "height": "50vh",
+    }
+  }
+/>
+`;

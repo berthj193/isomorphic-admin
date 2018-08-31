@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Order mapper toListItem() should flatten order object 1`] = `
+Array [
+  Object {
+    "created_at": "2018-07-03T12:24:06+00:00",
+    "customer_name": "Miroslaw Yarzyna",
+    "email": "my@email.com",
+    "grand_total": "1.000.000",
+    "id": "My0rd3r",
+    "key": "My0rd3r",
+    "status": "–",
+  },
+]
+`;
+
+exports[`Order mapper toListItem() should skip unpredicted fields 1`] = `
+Array [
+  Object {
+    "created_at": "2018-07-03T12:24:06+00:00",
+    "customer_name": "Miroslaw Yarzyna",
+    "email": "my@email.com",
+    "grand_total": "1.000.000",
+    "id": "My0rd3r",
+    "key": "My0rd3r",
+    "status": "–",
+  },
+]
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BackButton /> should render properly 1`] = `
+<Button
+  ghost={false}
+  loading={false}
+  onClick={[Function]}
+  prefixCls="ant-btn"
+>
+  Go Back
+</Button>
+`;

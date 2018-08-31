@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PageDetails /> should render properly 1`] = `
+<Form
+  className="details-page"
+  hideRequiredMark={false}
+  layout="horizontal"
+  onSubmit={[Function]}
+  prefixCls="ant-form"
+>
+  <FormItem
+    key="0"
+    label="Hello"
+  >
+    <span>
+      World
+    </span>
+  </FormItem>
+  <FormItem
+    key="1"
+    label="Hello-world"
+  >
+    <span>
+      <div>
+        Hello World
+      </div>
+    </span>
+  </FormItem>
+  <FormDivider
+    key="2"
+  />
+</Form>
+`;

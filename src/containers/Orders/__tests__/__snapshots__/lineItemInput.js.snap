@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LineInputItem /> should render properly 1`] = `
+<FieldList
+  addFieldLabel="Add item"
+  component={[Function]}
+  defaultItemValue=""
+  itemClassName="field-list-input"
+  label="Items"
+  meta={Object {}}
+  onChange={[Function]}
+  value={Array []}
+/>
+`;

@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Customers /> should map customers to proper object 1`] = `
+Array [
+  Object {
+    "email": "lorgana@rebellion.ga",
+    "id": "holonet|d3str0y-d3ath-st4r",
+    "key": "holonet|d3str0y-d3ath-st4r",
+    "name": "Leia Organa",
+  },
+  Object {
+    "email": "palpi@coruscant.co",
+    "id": "imperialnet|1-am-th3-s3n4t3",
+    "key": "imperialnet|1-am-th3-s3n4t3",
+    "name": "Sheev Palpatine",
+  },
+]
+`;
+
+exports[`<Customers /> should render correctly 1`] = `
+<withRouter(ItemList)
+  columns={
+    Array [
+      Object {
+        "dataIndex": "id",
+        "key": "id",
+        "title": "ID",
+      },
+      Object {
+        "dataIndex": "name",
+        "key": "name",
+        "title": "Name",
+      },
+      Object {
+        "dataIndex": "email",
+        "key": "email",
+        "title": "Email",
+      },
+      Object {
+        "dataIndex": "orders",
+        "key": "orders",
+        "title": "Orders",
+      },
+    ]
+  }
+  data={Array []}
+  title="Customers"
+/>
+`;
+
+exports[`<Customers /> should render error correctly 1`] = `
+<withRouter(ItemList)
+  columns={
+    Array [
+      Object {
+        "dataIndex": "id",
+        "key": "id",
+        "title": "ID",
+      },
+      Object {
+        "dataIndex": "name",
+        "key": "name",
+        "title": "Name",
+      },
+      Object {
+        "dataIndex": "email",
+        "key": "email",
+        "title": "Email",
+      },
+      Object {
+        "dataIndex": "orders",
+        "key": "orders",
+        "title": "Orders",
+      },
+    ]
+  }
+  data={Array []}
+  error="Woopsie, error happened"
+  title="Customers"
+/>
+`;

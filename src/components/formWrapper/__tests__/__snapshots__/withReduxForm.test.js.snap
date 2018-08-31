@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withReduxForm() should render deliveredComponent 1`] = `
+<ReduxFormWrapper>
+  <mockConstructor
+    onSubmitSuccess={[Function]}
+  >
+    <span />
+  </mockConstructor>
+</ReduxFormWrapper>
+`;

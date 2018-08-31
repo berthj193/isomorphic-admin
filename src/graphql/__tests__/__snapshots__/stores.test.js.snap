@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`stores gql createStoreQuery should return proper gql request 1`] = `
+"
+  mutation createStore(
+    $key: String!
+    $options: JsonType!
+    $legal_entity_id: ID!
+    $warehouse_id: ID!
+    $channel_id: ID!
+  ) {
+    createStore(
+      key: $key
+      options: $options
+      legal_entity_id: $legal_entity_id
+      warehouse_id: $warehouse_id
+      channel_id: $channel_id
+    )
+    {
+      
+    id
+    key
+    options
+    created_at
+    channel {
+      id
+      name
+    }
+    warehouse {
+      id
+      name
+    }
+    legal_entity {
+      id
+      name
+    }
+
+    }
+  }
+"
+`;
+
+exports[`stores gql getDetailsQuery() should return proper gql request 1`] = `
+"
+query stores (
+  $store_key: String!
+) {
+  stores(
+    store_key: $store_key
+  ) {
+    
+    id
+    key
+    options
+    created_at
+    channel {
+      id
+      name
+    }
+    warehouse {
+      id
+      name
+    }
+    legal_entity {
+      id
+      name
+    }
+
+  }
+}"
+`;
+
+exports[`stores gql storeListQuery should return proper gql request 1`] = `
+"
+query {
+  stores {
+    
+    id
+    key
+    options
+    created_at
+    channel {
+      id
+      name
+    }
+    warehouse {
+      id
+      name
+    }
+    legal_entity {
+      id
+      name
+    }
+
+  }
+}"
+`;
+
+exports[`stores gql updateStoreQuery should return proper gql request 1`] = `
+"
+  mutation updateStore(
+    $id: ID!
+    $key: String!
+    $options: JsonType!
+    $legal_entity_id: ID!
+    $warehouse_id: ID!
+    $channel_id: ID!
+  ) {
+    updateStore(
+      id: $id
+      key: $key
+      options: $options
+      legal_entity_id: $legal_entity_id
+      warehouse_id: $warehouse_id
+      channel_id: $channel_id
+    )
+    {
+      
+    id
+    key
+    options
+    created_at
+    channel {
+      id
+      name
+    }
+    warehouse {
+      id
+      name
+    }
+    legal_entity {
+      id
+      name
+    }
+
+    }
+  }
+"
+`;

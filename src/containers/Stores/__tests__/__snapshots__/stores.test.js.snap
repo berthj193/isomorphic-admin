@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Stores /> should map stores 1`] = `
+Array [
+  Object {
+    "channel_name": "CNN",
+    "company_name": "Shmetterling",
+    "created_at": "1970-01-01T00:00:01.990Z",
+    "id": "123",
+    "key": undefined,
+    "products_count": 1,
+    "warehouse_name": "My Little Warehouse",
+  },
+  Object {
+    "channel_name": "BBC",
+    "company_name": "Kummerspeck",
+    "created_at": "1970-01-01T00:00:01.992Z",
+    "id": "133",
+    "key": undefined,
+    "products_count": 3,
+    "warehouse_name": "My Bigger Warehouse",
+  },
+]
+`;
+
+exports[`<Stores /> should render properly 1`] = `
+<withRouter(ItemList)
+  buttons={
+    Array [
+      Object {
+        "link": "/dashboard/stores/new",
+        "title": "New form",
+      },
+    ]
+  }
+  columns={
+    Array [
+      Object {
+        "dataIndex": "id",
+        "key": "id",
+        "title": "ID",
+      },
+      Object {
+        "dataIndex": "key",
+        "key": "key",
+        "title": "Key",
+      },
+      Object {
+        "dataIndex": "warehouse_name",
+        "key": "warehouse_name",
+        "title": "Warehouse",
+      },
+      Object {
+        "dataIndex": "created_at",
+        "key": "created_at",
+        "title": "Created at",
+      },
+      Object {
+        "dataIndex": "channel_name",
+        "key": "channel_name",
+        "title": "Channel",
+      },
+      Object {
+        "dataIndex": "products_count",
+        "key": "products_count",
+        "title": "Products Count",
+      },
+      Object {
+        "dataIndex": "",
+        "key": "a",
+        "render": [Function],
+        "title": "Action",
+      },
+    ]
+  }
+  data={Array []}
+  detailsComponent={[Function]}
+  detailsPath={[Function]}
+  title="Stores"
+/>
+`;

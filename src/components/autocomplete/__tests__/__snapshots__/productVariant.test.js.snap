@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`product variants autocomplete component datasource should return one element 1`] = `
+Array [
+  <Option
+    value="1"
+>
+    undefined
+</Option>,
+]
+`;

@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CustomerDetails /> should render loading if there is no customer to display 1`] = `
+<PageLoading
+  style={
+    Object {
+      "height": "50vh",
+    }
+  }
+/>
+`;
+
+exports[`<CustomerDetails /> should render properly, if customer has been found 1`] = `
+<React.Fragment>
+  <LayoutWrapper
+    style={
+      Object {
+        "minHeight": "100vh",
+      }
+    }
+  >
+    <LayoutContent>
+      <h1>
+        Customer
+      </h1>
+      <ButtonList
+        buttons={
+          Array [
+            Object {
+              "link": "/dashboard/customers",
+              "title": "Go back",
+            },
+          ]
+        }
+      />
+      <PageDetails
+        details={
+          Array [
+            Object {
+              "Name": "Leia Organa",
+            },
+            Object {
+              "Email": "lorgana@rebellion.ga",
+            },
+            "---",
+            Object {
+              "Addresses": [Function],
+            },
+            Object {
+              "Payment Methods": undefined,
+            },
+          ]
+        }
+      />
+      <withRouter(ItemList)
+        columns={
+          Array [
+            Object {
+              "dataIndex": "id",
+              "key": "id",
+              "title": "ID",
+            },
+            Object {
+              "dataIndex": "customer_name",
+              "key": "customer_name",
+              "title": "Name",
+            },
+            Object {
+              "dataIndex": "email",
+              "key": "email",
+              "title": "Email",
+            },
+            Object {
+              "dataIndex": "created_at",
+              "key": "created_at",
+              "title": "Ordered At",
+            },
+            Object {
+              "dataIndex": "status",
+              "key": "status",
+              "title": "Status",
+            },
+            Object {
+              "dataIndex": "grand_total",
+              "key": "grand_total",
+              "title": "Order Total",
+            },
+          ]
+        }
+        data={Array []}
+        detailsPath="/dashboard/orders"
+        title="Customer Orders"
+      />
+    </LayoutContent>
+  </LayoutWrapper>
+</React.Fragment>
+`;

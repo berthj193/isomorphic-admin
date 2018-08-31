@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderDetails /> should render details with provider 1`] = `
+<ComponentWithProvider
+  startRequest={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;
+
+exports[`<OrderDetails /> should render loading page 1`] = `
+<PageLoading
+  style={
+    Object {
+      "height": "50vh",
+    }
+  }
+/>
+`;
+
+exports[`<OrderDetails /> should render properly 1`] = `
+<React.Fragment>
+  <LayoutWrapper
+    style={
+      Object {
+        "minHeight": "100vh",
+      }
+    }
+  >
+    <LayoutContent>
+      <h1>
+        Orders
+      </h1>
+      <ButtonList
+        buttons={
+          Array [
+            Object {
+              "link": "/dashboard/orders",
+              "title": "Go back",
+            },
+            Object {
+              "link": "/dashboard/orders/undefined/refund",
+              "title": "Add refund",
+            },
+          ]
+        }
+      />
+      <PageDetails
+        details={
+          Array [
+            Object {
+              "Store": undefined,
+            },
+            "---",
+            Object {
+              "E-mail": undefined,
+            },
+            Object {
+              "First name": undefined,
+            },
+            Object {
+              "Last name": undefined,
+            },
+            Object {
+              "Phone number": undefined,
+            },
+            "---",
+            Object {
+              "First name": undefined,
+            },
+            Object {
+              "Last name": undefined,
+            },
+            Object {
+              "City": undefined,
+            },
+            Object {
+              "Region": undefined,
+            },
+            Object {
+              "Postcode": undefined,
+            },
+            Object {
+              "Line one": undefined,
+            },
+            Object {
+              "Line two": undefined,
+            },
+            "---",
+            Object {
+              "Item total": "undefined undefined",
+            },
+            Object {
+              "Grand total": "undefined undefined",
+            },
+            Object {
+              "Shipping total": "undefined undefined",
+            },
+            Object {
+              "Item discount total": "undefined undefined",
+            },
+            Object {
+              "Shipping discount total": "undefined undefined",
+            },
+          ]
+        }
+      />
+    </LayoutContent>
+  </LayoutWrapper>
+</React.Fragment>
+`;

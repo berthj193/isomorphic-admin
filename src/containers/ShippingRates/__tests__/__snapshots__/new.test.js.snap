@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NewShippingRate /> should render properly 1`] = `
+<LayoutWrapper
+  style={
+    Object {
+      "minHeight": "100vh",
+    }
+  }
+>
+  <LayoutContent>
+    <h1>
+      Shipping rates
+    </h1>
+    <ButtonList
+      buttons={
+        Array [
+          Object {
+            "link": "/dashboard/shipping_rates",
+            "title": "Go back",
+          },
+        ]
+      }
+    />
+    <ReduxFormWrapper
+      onSubmit={[Function]}
+      resetOnSuccess={true}
+    />
+  </LayoutContent>
+</LayoutWrapper>
+`;

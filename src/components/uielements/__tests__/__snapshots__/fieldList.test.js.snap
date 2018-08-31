@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FieldList /> should render properly 1`] = `
+<React.Fragment>
+  <FormItem
+    help={false}
+    key="0"
+    label="Items"
+    labelCol={
+      Object {
+        "sm": Object {
+          "span": 4,
+        },
+        "xs": Object {
+          "span": 24,
+        },
+      }
+    }
+    validateStatus="success"
+    wrapperCol={
+      Object {
+        "sm": Object {
+          "span": 6,
+        },
+        "xs": Object {
+          "span": 24,
+        },
+      }
+    }
+  >
+    <Button
+      className="add-new-field-button"
+      ghost={false}
+      loading={false}
+      onClick={[Function]}
+      prefixCls="ant-btn"
+      type="dashed"
+    >
+      <Icon
+        type="plus"
+      />
+       
+      Add field
+    </Button>
+  </FormItem>
+</React.Fragment>
+`;
+
+exports[`<FieldList /> should render properly with given values 1`] = `
+<React.Fragment>
+  <FormItem
+    help={false}
+    key="0"
+    label="Items"
+    labelCol={
+      Object {
+        "sm": Object {
+          "span": 4,
+        },
+        "xs": Object {
+          "span": 24,
+        },
+      }
+    }
+    validateStatus="success"
+    wrapperCol={
+      Object {
+        "sm": Object {
+          "span": 6,
+        },
+        "xs": Object {
+          "span": 24,
+        },
+      }
+    }
+  >
+    <component
+      index={0}
+      onBlur={[Function]}
+      onChange={[Function]}
+      value="lorem"
+    />
+    <Icon
+      className="dynamic-delete-button field-list-delete-button"
+      disabled={false}
+      onClick={[Function]}
+      type="minus-circle-o"
+    />
+  </FormItem>
+  <FormItem
+    help={false}
+    key="1"
+    label=""
+    required={false}
+    validateStatus="success"
+    wrapperCol={
+      Object {
+        "sm": Object {
+          "offset": 4,
+          "span": 6,
+        },
+        "xs": Object {
+          "offset": 24,
+          "span": 24,
+        },
+      }
+    }
+  >
+    <component
+      index={1}
+      onBlur={[Function]}
+      onChange={[Function]}
+      value="ipsum"
+    />
+    <Icon
+      className="dynamic-delete-button field-list-delete-button"
+      disabled={false}
+      onClick={[Function]}
+      type="minus-circle-o"
+    />
+  </FormItem>
+  <FormItem
+    help={false}
+    key="2"
+    label=""
+    required={false}
+    validateStatus="success"
+    wrapperCol={
+      Object {
+        "sm": Object {
+          "offset": 4,
+          "span": 6,
+        },
+        "xs": Object {
+          "offset": 24,
+          "span": 24,
+        },
+      }
+    }
+  >
+    <component
+      index={2}
+      onBlur={[Function]}
+      onChange={[Function]}
+      value="dolor"
+    />
+    <Icon
+      className="dynamic-delete-button field-list-delete-button"
+      disabled={false}
+      onClick={[Function]}
+      type="minus-circle-o"
+    />
+  </FormItem>
+  <FormItem
+    help={false}
+    key="3"
+    label=""
+    required={false}
+    validateStatus="success"
+    wrapperCol={
+      Object {
+        "sm": Object {
+          "offset": 4,
+          "span": 6,
+        },
+        "xs": Object {
+          "offset": 24,
+          "span": 24,
+        },
+      }
+    }
+  >
+    <Button
+      className="add-new-field-button"
+      ghost={false}
+      loading={false}
+      onClick={[Function]}
+      prefixCls="ant-btn"
+      type="dashed"
+    >
+      <Icon
+        type="plus"
+      />
+       
+      Add field
+    </Button>
+  </FormItem>
+</React.Fragment>
+`;

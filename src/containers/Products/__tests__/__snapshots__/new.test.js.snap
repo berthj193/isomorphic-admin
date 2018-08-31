@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NewProduct /> should render correctly 1`] = `
+<LayoutWrapper
+  style={
+    Object {
+      "minHeight": "100vh",
+    }
+  }
+>
+  <LayoutContent>
+    <h1>
+      Product
+    </h1>
+    <ButtonList
+      buttons={
+        Array [
+          Object {
+            "link": "/dashboard/products",
+            "title": "Go back",
+          },
+        ]
+      }
+    />
+    <ReduxFormWrapper
+      onSubmit={[Function]}
+      resetOnSuccess={true}
+    />
+    <Error />
+  </LayoutContent>
+</LayoutWrapper>
+`;
+
+exports[`<NewProduct /> should render error correctly 1`] = `
+<LayoutWrapper
+  style={
+    Object {
+      "minHeight": "100vh",
+    }
+  }
+>
+  <LayoutContent>
+    <h1>
+      Product
+    </h1>
+    <ButtonList
+      buttons={
+        Array [
+          Object {
+            "link": "/dashboard/products",
+            "title": "Go back",
+          },
+        ]
+      }
+    />
+    <ReduxFormWrapper
+      onSubmit={[Function]}
+      resetOnSuccess={true}
+    />
+    <Error
+      error="We don't like this product!"
+    />
+  </LayoutContent>
+</LayoutWrapper>
+`;

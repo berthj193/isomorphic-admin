@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditWarehouse /> should render loading, if component is not ready 1`] = `
+<PageLoading
+  style={
+    Object {
+      "height": "50vh",
+    }
+  }
+/>
+`;
+
+exports[`<EditWarehouse /> should render loading, if component is not ready 2`] = `
+<LayoutWrapper
+  style={
+    Object {
+      "minHeight": "100vh",
+    }
+  }
+>
+  <LayoutContent>
+    <h1>
+      Warehouses
+    </h1>
+    <ButtonList
+      buttons={
+        Array [
+          Object {
+            "link": "/dashboard/warehouses/1234",
+            "title": "Go back",
+          },
+        ]
+      }
+    />
+    <ReduxFormWrapper
+      initialValues={
+        Object {
+          "export_class": "ExportSupreme",
+          "name": "My Warehouse",
+        }
+      }
+      onSubmit={[Function]}
+    />
+  </LayoutContent>
+</LayoutWrapper>
+`;

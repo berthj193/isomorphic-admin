@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LegalEntityDetails /> renderList should return list of elements 1`] = `undefined`;
+
+exports[`<LegalEntityDetails /> should render details with provider 1`] = `
+<ComponentWithProvider
+  startRequest={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;
+
+exports[`<LegalEntityDetails /> should render loading page 1`] = `
+<PageLoading
+  style={
+    Object {
+      "height": "50vh",
+    }
+  }
+/>
+`;

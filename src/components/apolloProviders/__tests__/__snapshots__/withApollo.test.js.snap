@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withProvider() should render delivered component 1`] = `
+<ComponentWithProvider
+  startRequest={[Function]}
+>
+  <TestComponent
+    error={null}
+    mutate={[Function]}
+    query={[Function]}
+    refresh={[Function]}
+  >
+    <span>
+      My Beautiful Component
+    </span>
+  </TestComponent>
+</ComponentWithProvider>
+`;

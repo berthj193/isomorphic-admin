@@ -1,0 +1,20 @@
+.taxonomy {
+  display: flex;
+  flex-direction: row;
+
+  &>* {
+    flex-grow: 1;
+  }
+
+  .edit-taxonomy {
+    position: relative;
+
+    .delete-taxonomy {
+      position: absolute;
+      bottom: 0;
+      margin-bottom: 3px;
+      z-index: 1;
+    }
+  }
+
+}

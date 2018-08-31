@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LegalEntities /> action column should match snapshot 1`] = `undefined`;
+
+exports[`<LegalEntities /> should map and pass orders to table component 1`] = `
+<withRouter(ItemList)
+  buttons={
+    Array [
+      Object {
+        "link": "/dashboard/legal_entities/new",
+        "title": "New legal entity",
+      },
+    ]
+  }
+  columns={
+    Array [
+      Object {
+        "dataIndex": "id",
+        "key": "id",
+        "title": "ID",
+      },
+      Object {
+        "dataIndex": "name",
+        "key": "name",
+        "title": "Name",
+      },
+      Object {
+        "dataIndex": "vat_number",
+        "key": "vat_number",
+        "title": "VAT Number",
+      },
+      Object {
+        "dataIndex": "stores",
+        "key": "stores",
+        "title": "Stores",
+      },
+      Object {
+        "dataIndex": "created_at",
+        "key": "created_at",
+        "title": "Created at",
+      },
+      Object {
+        "dataIndex": "",
+        "key": "a",
+        "render": [Function],
+        "title": "Action",
+      },
+    ]
+  }
+  data={
+    Array [
+      Object {
+        "created_at": "Yesterday",
+        "id": "1",
+        "key": "1",
+        "name": "Example legal entity",
+        "stores": 2,
+        "vat_number": "1234",
+      },
+    ]
+  }
+  loading={false}
+  title="Legal entities"
+/>
+`;
+
+exports[`<LegalEntities /> should render properly 1`] = `
+<withRouter(ItemList)
+  buttons={
+    Array [
+      Object {
+        "link": "/dashboard/legal_entities/new",
+        "title": "New legal entity",
+      },
+    ]
+  }
+  columns={
+    Array [
+      Object {
+        "dataIndex": "id",
+        "key": "id",
+        "title": "ID",
+      },
+      Object {
+        "dataIndex": "name",
+        "key": "name",
+        "title": "Name",
+      },
+      Object {
+        "dataIndex": "vat_number",
+        "key": "vat_number",
+        "title": "VAT Number",
+      },
+      Object {
+        "dataIndex": "stores",
+        "key": "stores",
+        "title": "Stores",
+      },
+      Object {
+        "dataIndex": "created_at",
+        "key": "created_at",
+        "title": "Created at",
+      },
+      Object {
+        "dataIndex": "",
+        "key": "a",
+        "render": [Function],
+        "title": "Action",
+      },
+    ]
+  }
+  data={
+    Array [
+      Object {
+        "created_at": "Yesterday",
+        "id": "1",
+        "key": "1",
+        "name": "Example legal entity",
+        "stores": 2,
+        "vat_number": "1234",
+      },
+    ]
+  }
+  loading={false}
+  title="Legal entities"
+/>
+`;

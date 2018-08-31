@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`makeField util should render component with an error 1`] = `
+<FormItem
+  help="required"
+  label="foo"
+  required={true}
+  validateStatus="error"
+>
+  <textField />
+</FormItem>
+`;
+
+exports[`makeField util should render component with error feedback icon 1`] = `
+<FormItem
+  hasFeedback={true}
+  help="required"
+  label="foo"
+  required={true}
+  validateStatus="error"
+>
+  <textField />
+</FormItem>
+`;
+
+exports[`makeField util should render component with label properly 1`] = `
+<FormItem
+  label="foo"
+  validateStatus="success"
+>
+  <textField />
+</FormItem>
+`;
+
+exports[`makeField util should render component with required prop 1`] = `
+<FormItem
+  label="foo"
+  required={true}
+  validateStatus="success"
+>
+  <textField />
+</FormItem>
+`;
+
+exports[`makeField util should render component without label properly 1`] = `
+<FormItem
+  validateStatus="success"
+  wrapperCol={
+    Object {
+      "sm": Object {
+        "offset": 4,
+        "span": 6,
+      },
+      "xs": Object {
+        "offset": 24,
+        "span": 24,
+      },
+    }
+  }
+>
+  <textField />
+</FormItem>
+`;
+
+exports[`makeField util should render component without label with correct props 1`] = `
+<FormItem
+  validateStatus="success"
+  wrapperCol={
+    Object {
+      "sm": Object {
+        "offset": 4,
+        "span": 6,
+      },
+      "xs": Object {
+        "offset": 24,
+        "span": 24,
+      },
+    }
+  }
+>
+  <textField
+    anotherProp="anotherProp"
+    inputProp="foo"
+  />
+</FormItem>
+`;

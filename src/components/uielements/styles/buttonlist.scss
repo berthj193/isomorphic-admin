@@ -1,0 +1,7 @@
+.button-list {
+  margin-bottom: 24px;
+}
+
+.button-list button:not(:first-of-type) {
+  margin-left: 12px;
+}

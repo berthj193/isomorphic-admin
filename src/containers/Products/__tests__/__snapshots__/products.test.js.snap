@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Products /> should map products 1`] = `
+Array [
+  Object {
+    "description": "Representation of unicorn",
+    "id": 1,
+    "key": 1,
+    "name": "MyLittlePony Toy",
+    "sku": "r41nb0w",
+    "stores_count": 2,
+  },
+  Object {
+    "description": "Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn",
+    "id": 2,
+    "key": 2,
+    "name": "Necronomicon",
+    "sku": "d3v1l",
+    "stores_count": 0,
+  },
+]
+`;
+
+exports[`<Products /> should render properly 1`] = `
+<withRouter(ItemList)
+  buttons={
+    Array [
+      Object {
+        "link": "/dashboard/products/new",
+        "title": "New product",
+      },
+    ]
+  }
+  columns={
+    Array [
+      Object {
+        "dataIndex": "id",
+        "key": "id",
+        "title": "ID",
+      },
+      Object {
+        "dataIndex": "name",
+        "key": "name",
+        "title": "Name",
+      },
+      Object {
+        "dataIndex": "description",
+        "key": "description",
+        "title": "Description",
+      },
+      Object {
+        "dataIndex": "sku",
+        "key": "sku",
+        "title": "SKU",
+      },
+      Object {
+        "dataIndex": "stores_count",
+        "key": "stores_count",
+        "title": "No. Stores",
+      },
+      Object {
+        "dataIndex": "",
+        "key": "a",
+        "render": [Function],
+        "title": "Action",
+      },
+    ]
+  }
+  data={Array []}
+  title="Products"
+/>
+`;

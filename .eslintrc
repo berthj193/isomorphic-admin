@@ -1,0 +1,27 @@
+{
+  "root": true,
+  "extends": [
+    "airbnb"
+  ],
+  "rules": {
+    "import/no-named-as-default": false,
+    "react/jsx-closing-tag-location": false,
+    "react/jsx-closing-bracket-location": [true, "line-aligned"],
+    "react/forbid-prop-types": ["error", { "forbid": ["array", "any"] }],
+    "no-unused-vars": "error",
+    "no-case-declarations": 0,
+    "camelcase": "off"
+  },
+  "globals": {
+    "FB": true,
+    "google": true
+  },
+  "settings": {
+    "import/resolve": {
+      "moduleDirectory": ["node_modules", "src"]
+    }
+  },
+  "env": {
+    "jest": true
+  }
+}

@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditOrder /> should render properly 1`] = `
+<LayoutWrapper
+  style={
+    Object {
+      "minHeight": "100vh",
+    }
+  }
+>
+  <LayoutContent>
+    <h1>
+      Orders
+    </h1>
+    <ButtonList
+      buttons={
+        Array [
+          Object {
+            "link": "/dashboard/orders/undefined",
+            "title": "Go back",
+          },
+        ]
+      }
+    />
+    <ReduxFormWrapper
+      initialValues={
+        Object {
+          "guest_email": undefined,
+          "guest_family_name": undefined,
+          "guest_given_name": undefined,
+          "phone_number": undefined,
+          "shipping_address_id": undefined,
+          "shipping_rate_id": undefined,
+        }
+      }
+      onSubmit={[Function]}
+    />
+  </LayoutContent>
+</LayoutWrapper>
+`;

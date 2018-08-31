@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Address /> should render properly 1`] = `
+<div
+  className="customer-address"
+>
+  <p>
+    lorem-ipsum
+  </p>
+  <p>
+    dolor-sit-amet
+  </p>
+  <p>
+    P0stC0d3
+  </p>
+</div>
+`;
+
+exports[`<Address /> should skip second line of address 1`] = `
+<div
+  className="customer-address"
+>
+  <p>
+    lorem-ipsum
+  </p>
+  <p>
+    P0stC0d3
+  </p>
+</div>
+`;

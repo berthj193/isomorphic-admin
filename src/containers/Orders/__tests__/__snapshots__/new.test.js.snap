@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NewOrder /> should render properly 1`] = `
+<LayoutWrapper
+  style={
+    Object {
+      "minHeight": "100vh",
+    }
+  }
+>
+  <LayoutContent>
+    <h1>
+      Orders
+    </h1>
+    <ButtonList
+      buttons={
+        Array [
+          Object {
+            "link": "/dashboard/orders",
+            "title": "Go back",
+          },
+        ]
+      }
+    />
+    <ReduxFormWrapper
+      initialValues={
+        Object {
+          "currency": "GBP",
+        }
+      }
+      onSubmit={[Function]}
+    />
+  </LayoutContent>
+</LayoutWrapper>
+`;

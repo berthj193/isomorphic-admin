@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`legal entities autocomplete component datasource should return one element 1`] = `
+Array [
+  <Option
+    value="1"
+>
+    foo
+</Option>,
+]
+`;

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<productVariants /> renderProductVariantForms() should render product variant forms based on state data 1`] = `
+Array [
+  <Unknown>
+    <ProductVariantForm
+        initialValues={
+            Object {
+                "default_sku": "foo",
+                "id": "1",
+              }
+        }
+        onDelete={[Function]}
+        onSubmit={[Function]}
+        productId="1"
+    />
+    <FormDivider />
+</Unknown>,
+]
+`;
+
+exports[`<productVariants /> should render properly 1`] = `
+<LayoutWrapper
+  style={
+    Object {
+      "minHeight": "100vh",
+    }
+  }
+>
+  <LayoutContent>
+    <h1>
+      Product variants
+    </h1>
+    <ButtonList
+      buttons={
+        Array [
+          Object {
+            "link": "/dashboard/products",
+            "title": "Go back",
+          },
+        ]
+      }
+    />
+    <CustomComponent
+      label="Product name"
+    />
+    <FormDivider />
+    <CustomComponent />
+  </LayoutContent>
+</LayoutWrapper>
+`;

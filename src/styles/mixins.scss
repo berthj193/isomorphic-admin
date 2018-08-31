@@ -1,0 +1,11 @@
+@mixin border-radius($radius: 0) {
+  border-radius: $radius;
+}
+
+@mixin box-shadow($shadow: 'none') {
+  box-shadow: $shadow;
+}
+
+@mixin transition($timing: 0.3s) {
+  transition: all $timing cubic-bezier(0.215, 0.61, 0.355, 1);
+}

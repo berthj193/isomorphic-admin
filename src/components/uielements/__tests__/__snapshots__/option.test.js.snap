@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Option /> should render properly 1`] = `
+<Option
+  value={
+    Object {
+      "key": "",
+      "value": "",
+    }
+  }
+>
+  <span
+    className="option"
+  >
+    <Input
+      className="option-key"
+      disabled={false}
+      key="key-undefined"
+      onChange={[Function]}
+      placeholder="key"
+      prefixCls="ant-input"
+      type="text"
+      value=""
+    >
+      <input
+        className="ant-input option-key"
+        disabled={false}
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        placeholder="key"
+        type="text"
+        value=""
+      />
+    </Input>
+    =
+    <Input
+      className="option-value"
+      disabled={false}
+      key="value-undefined"
+      onChange={[Function]}
+      placeholder="value"
+      prefixCls="ant-input"
+      type="text"
+      value=""
+    >
+      <input
+        className="ant-input option-value"
+        disabled={false}
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        placeholder="value"
+        type="text"
+        value=""
+      />
+    </Input>
+  </span>
+</Option>
+`;
+
+exports[`<Option /> should render with initial values 1`] = `
+<Option
+  value={
+    Object {
+      "key": "Lorem",
+      "value": "Ipsum",
+    }
+  }
+>
+  <span
+    className="option"
+  >
+    <Input
+      className="option-key"
+      disabled={false}
+      key="key-undefined"
+      onChange={[Function]}
+      placeholder="key"
+      prefixCls="ant-input"
+      type="text"
+      value="Lorem"
+    >
+      <input
+        className="ant-input option-key"
+        disabled={false}
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        placeholder="key"
+        type="text"
+        value="Lorem"
+      />
+    </Input>
+    =
+    <Input
+      className="option-value"
+      disabled={false}
+      key="value-undefined"
+      onChange={[Function]}
+      placeholder="value"
+      prefixCls="ant-input"
+      type="text"
+      value="Ipsum"
+    >
+      <input
+        className="ant-input option-value"
+        disabled={false}
+        onChange={[Function]}
+        onKeyDown={[Function]}
+        placeholder="value"
+        type="text"
+        value="Ipsum"
+      />
+    </Input>
+  </span>
+</Option>
+`;

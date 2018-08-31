@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductDetails /> should render error 1`] = `
+<LayoutWrapper
+  style={
+    Object {
+      "minHeight": "100vh",
+    }
+  }
+>
+  <LayoutContent>
+    <h1>
+      Product
+    </h1>
+    <ButtonList
+      buttons={
+        Array [
+          Object {
+            "link": "/dashboard/products",
+            "title": "Go back",
+          },
+          Object {
+            "link": "/dashboard/products/1/edit",
+            "title": "Edit",
+          },
+        ]
+      }
+    />
+    <PageDetails
+      details={
+        Array [
+          Object {
+            "Name": "MasterName",
+          },
+          Object {
+            "Description": undefined,
+          },
+          "---",
+          Object {
+            "SKU": "MasterSKU",
+          },
+        ]
+      }
+    />
+    <Error
+      error="Product not Found!"
+    />
+  </LayoutContent>
+</LayoutWrapper>
+`;
+
+exports[`<ProductDetails /> should render loading, if product is not set 1`] = `
+<PageLoading
+  style={
+    Object {
+      "height": "50vh",
+    }
+  }
+/>
+`;
+
+exports[`<ProductDetails /> should render product 1`] = `
+<LayoutWrapper
+  style={
+    Object {
+      "minHeight": "100vh",
+    }
+  }
+>
+  <LayoutContent>
+    <h1>
+      Product
+    </h1>
+    <ButtonList
+      buttons={
+        Array [
+          Object {
+            "link": "/dashboard/products",
+            "title": "Go back",
+          },
+          Object {
+            "link": "/dashboard/products/1/edit",
+            "title": "Edit",
+          },
+        ]
+      }
+    />
+    <PageDetails
+      details={
+        Array [
+          Object {
+            "Name": "MasterName",
+          },
+          Object {
+            "Description": undefined,
+          },
+          "---",
+          Object {
+            "SKU": "MasterSKU",
+          },
+        ]
+      }
+    />
+    <Error />
+  </LayoutContent>
+</LayoutWrapper>
+`;

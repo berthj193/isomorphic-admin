@@ -1,0 +1,36 @@
+@import '../../styles/colors.scss';
+
+.page-header {
+  font-size: 19px;
+  font-weight: 500;
+  color: $secondary-2;
+  width: 100%;
+  margin-right: 17px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+
+  @media only screen and (max-width: 767px) {
+    margin: 0 10px;
+    margin-bottom: 30px;
+  }
+
+  &:before {
+    content: '';
+    width: 5px;
+    height: 40px;
+    background-color: $secondary-3;
+    display: flex;
+    margin: 0 15px 0 0;
+  }
+
+  &:after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: $secondary-3;
+    display: flex;
+    margin: 0 0 0 15px;
+  }
+}

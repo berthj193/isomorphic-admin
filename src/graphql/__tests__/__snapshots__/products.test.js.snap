@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+"
+  mutation createProduct(
+    $default_name: String
+    $default_description: String
+    $default_master_sku: String!
+    $store_keys: [String]
+  ) {
+    createProduct(
+      default_name: $default_name
+      default_description: $default_description
+      default_master_sku: $default_master_sku
+      store_keys: $store_keys
+    )
+    {
+      id
+      default_name
+      default_description
+      default_master_sku
+      stores {
+        key
+      }
+      store_products {
+        master_sku
+      }
+      product_variants {
+        default_sku
+      }
+    }
+  }
+"
+`;
+
+exports[` 2`] = `
+"
+mutation updateProduct(
+  $id: ID!
+  $default_name: String
+  $default_description: String
+  $default_master_sku: String!
+) {
+  updateProduct(
+    id: $id
+    default_name: $default_name
+    default_description: $default_description
+    default_master_sku: $default_master_sku
+  )
+  {
+    id
+    default_name
+    default_description
+    default_master_sku
+    stores {
+      key
+    }
+    store_products {
+      master_sku
+    }
+    product_variants {
+      default_sku
+    }
+  }
+}"
+`;
+
+exports[`stores gql getProductQuery() should return proper gql request 1`] = `
+"
+query {
+  products( filter: {
+    id: 1
+  }) {
+    default_name
+    default_description
+    default_master_sku
+    stores {
+      key
+    }
+    store_products {
+      master_sku
+    }
+    product_variants {
+      default_sku
+    }
+  }
+}"
+`;
+
+exports[`stores gql getProductQuery() should return proper gql request with passed parameter 1`] = `
+"
+query {
+  products( filter: {
+    id: 3
+  }) {
+    default_name
+    default_description
+    default_master_sku
+    stores {
+      key
+    }
+    store_products {
+      master_sku
+    }
+    product_variants {
+      default_sku
+    }
+  }
+}"
+`;
+
+exports[`stores gql getProductsQuery() should return proper gql request 1`] = `
+"
+query {
+  products {
+    id
+    default_name
+    default_description
+    default_master_sku
+    stores {
+      key
+    }
+    store_products {
+      master_sku
+    }
+    product_variants {
+      default_sku
+    }
+  }
+}"
+`;

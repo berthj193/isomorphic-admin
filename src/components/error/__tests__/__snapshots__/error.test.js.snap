@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Error /> should display children, if error props is falsy 1`] = `"I am ok :)"`;
+
+exports[`<Error /> should display children, if error props is falsy 2`] = `
+<span
+  className="error"
+>
+  I am not ok :(
+</span>
+`;

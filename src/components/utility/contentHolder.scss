@@ -1,0 +1,93 @@
+.content-holder {
+  margin-top: 30px;
+  -webkit-overflow-scrolling: touch;
+
+  .demoBtn {
+    margin-right: 10px;
+    margin-left: 0;
+  }
+
+  .demoBtnsWrapper {
+    &:nth-child(1) {
+      margin-left: 70px;
+      margin-right: 0;
+      white-space: nowrap;
+    }
+
+    &:nth-child(2) {
+      width: 70px;
+      float: left;
+    }
+
+    &:nth-child(3) {
+      width: 70px;
+      margin-left: 295px;
+      margin-right: 0;
+    }
+
+    &:nth-child(4) {
+      margin-left: 70px;
+      margin-right: 0;
+      clear: both;
+      white-space: nowrap;
+    }
+
+    @media only screen and (max-width: 480px) {
+      margin-left: 0 !important;
+      white-space: nowrap;
+      margin-right: 8px;
+      float: none !important;
+    }
+
+    .demoPosBtn {
+      width: 70px;
+      margin-right: 8px;
+      margin-left: 0;
+      margin-bottom: 8px;
+      padding: 0;
+
+      @media only screen and (max-width: 480px) {
+        width: 65px;
+      }
+    }
+  }
+
+  .ant-btn {
+    &:not(.demoPosBtn) {
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .tooltipBtn {
+    display: inline-block;
+    line-height: 32px;
+    height: 32px;
+    width: 70px;
+    font-size: 14px;
+    text-align: center;
+    background: $secondary-1;
+    margin-right: 6px;
+    margin-left: 0;
+    margin-bottom: 6px;
+    border-radius: 6px;
+  }
+
+  .ant-progress {
+    &.ant-progress-circle {
+      margin-right: 15px;
+      margin-left: 0;
+
+      &:last-child {
+        margin-right: 0;
+        margin-left: 0;
+      }
+    }
+  }
+
+  strong {
+    font-weight: 700;
+    font-size: 14px;
+  }
+}

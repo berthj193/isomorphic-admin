@@ -1,0 +1,74 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/mixins.scss';
+
+.ant-popover {
+  font-size: 13px;
+
+  .ant-popover-inner {
+    .ant-popover-title {
+      background-color: $grayscale-5;
+      font-size: 14px;
+      font-weight: 500;
+      color: $text-0;
+      line-height: 35px;
+      height: 35px;
+      border-bottom: 1px solid $border-0;
+      @include border-radius(4px 4px 0 0);
+    }
+
+    .ant-popover-inner-content {
+      color: $text-3;
+
+      a {
+        color: $primary-0;
+      }
+
+      .ant-popover-message {
+        padding: 8px 0 16px;
+        font-size: 13px;
+        color: $text-1;
+
+        > .anticon {
+          color: $warning-0;
+          font-size: 14px;
+          margin-top: 1px;
+        }
+      }
+    }
+  }
+
+  &.ant-popover-placement-rightTop {
+    > .ant-popover-content {
+      > .ant-popover-arrow {
+        background-color: transparent;
+        &:after {
+          border-right-color: $grayscale-6;
+        }
+      }
+    }
+  }
+
+  &.ant-popover-placement-leftTop {
+    > .ant-popover-content {
+      > .ant-popover-arrow {
+        background-color: transparent;
+        &:after {
+          border-left-color: $grayscale-6;
+        }
+      }
+    }
+  }
+
+  &.ant-popover-placement-bottom,
+  &.ant-popover-placement-bottomLeft,
+  &.ant-popover-placement-bottomRight {
+    > .ant-popover-content {
+      > .ant-popover-arrow {
+        background-color: transparent;
+        &:after {
+          border-bottom-color: $grayscale-6;
+        }
+      }
+    }
+  }
+}

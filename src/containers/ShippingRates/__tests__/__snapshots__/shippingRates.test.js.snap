@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShippingRates /> action column should match snapshot 1`] = `undefined`;
+
+exports[`<ShippingRates /> should map and pass shipping rates to table component 1`] = `
+<withRouter(ItemList)
+  buttons={
+    Array [
+      Object {
+        "link": "/dashboard/shipping_rates/new",
+        "title": "New shipping rate",
+      },
+    ]
+  }
+  columns={
+    Array [
+      Object {
+        "dataIndex": "id",
+        "key": "id",
+        "title": "ID",
+      },
+      Object {
+        "dataIndex": "country",
+        "key": "country",
+        "title": "Country",
+      },
+      Object {
+        "dataIndex": "name",
+        "key": "name",
+        "title": "Name",
+      },
+      Object {
+        "dataIndex": "premium",
+        "key": "premium",
+        "title": "Premium",
+      },
+      Object {
+        "dataIndex": "live",
+        "key": "live",
+        "title": "Live",
+      },
+      Object {
+        "dataIndex": "created_at",
+        "key": "created_at",
+        "title": "Created At",
+      },
+      Object {
+        "dataIndex": "",
+        "key": "a",
+        "render": [Function],
+        "title": "Action",
+      },
+    ]
+  }
+  data={Array []}
+  detailsComponent={[Function]}
+  detailsProps={
+    Object {
+      "onSubmit": undefined,
+    }
+  }
+  loading={false}
+  title="Shipping rates"
+/>
+`;
+
+exports[`<ShippingRates /> should render properly 1`] = `
+<withRouter(ItemList)
+  buttons={
+    Array [
+      Object {
+        "link": "/dashboard/shipping_rates/new",
+        "title": "New shipping rate",
+      },
+    ]
+  }
+  columns={
+    Array [
+      Object {
+        "dataIndex": "id",
+        "key": "id",
+        "title": "ID",
+      },
+      Object {
+        "dataIndex": "country",
+        "key": "country",
+        "title": "Country",
+      },
+      Object {
+        "dataIndex": "name",
+        "key": "name",
+        "title": "Name",
+      },
+      Object {
+        "dataIndex": "premium",
+        "key": "premium",
+        "title": "Premium",
+      },
+      Object {
+        "dataIndex": "live",
+        "key": "live",
+        "title": "Live",
+      },
+      Object {
+        "dataIndex": "created_at",
+        "key": "created_at",
+        "title": "Created At",
+      },
+      Object {
+        "dataIndex": "",
+        "key": "a",
+        "render": [Function],
+        "title": "Action",
+      },
+    ]
+  }
+  data={Array []}
+  detailsComponent={[Function]}
+  detailsProps={
+    Object {
+      "onSubmit": undefined,
+    }
+  }
+  loading={false}
+  title="Shipping rates"
+/>
+`;

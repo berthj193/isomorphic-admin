@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditLegalEntity /> should render properly 1`] = `
+<React.Fragment>
+  <LayoutWrapper
+    style={
+      Object {
+        "minHeight": "100vh",
+      }
+    }
+  >
+    <LayoutContent>
+      <h1>
+        Legal entities
+      </h1>
+      <ButtonList
+        buttons={
+          Array [
+            Object {
+              "link": "/dashboard/legal_entities/undefined",
+              "title": "Go back",
+            },
+          ]
+        }
+      />
+      <ReduxFormWrapper
+        initialValues={
+          Object {
+            "name": undefined,
+            "vat_number": undefined,
+          }
+        }
+        onSubmit={[Function]}
+      />
+    </LayoutContent>
+  </LayoutWrapper>
+</React.Fragment>
+`;

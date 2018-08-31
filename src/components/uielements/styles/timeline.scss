@@ -1,0 +1,17 @@
+@import '../../../styles/colors.scss';
+
+.ant-timeline {
+  .ant-timeline-item-content {
+    font-size: 13px;
+    color: $text-3;
+    padding: 0 0 10px 24px;
+  }
+  .ant-timeline-item-tail {
+    left: 4px;
+    right: inherit;
+  }
+  .ant-timeline-item-head-custom {
+    left: 5px;
+    right: inherit;
+  }
+}

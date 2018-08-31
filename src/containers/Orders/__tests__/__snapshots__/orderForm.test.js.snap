@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OrderForm /> should render properly 1`] = `
+<Form
+  hideRequiredMark={false}
+  layout="horizontal"
+  onSubmit={[Function]}
+  prefixCls="ant-form"
+>
+  <Field
+    component={[Function]}
+    label="Store"
+    name="store_key"
+    required={true}
+    validate={
+      Array [
+        [Function],
+      ]
+    }
+  />
+  <FormDivider />
+  <Field
+    component={[Function]}
+    label="Guest e-mail"
+    name="guest_email"
+    placeholder="johndoe@isomorphic.com"
+    validate={
+      Array [
+        [Function],
+      ]
+    }
+  />
+  <Field
+    component={[Function]}
+    hasFeedback={true}
+    label="Guest first name"
+    name="guest_given_name"
+    placeholder="John"
+  />
+  <Field
+    component={[Function]}
+    hasFeedback={true}
+    label="Guest last name"
+    name="guest_family_name"
+    placeholder="Doe"
+  />
+  <Field
+    component={[Function]}
+    hasFeedback={true}
+    label="Phone number"
+    name="phone_number"
+  />
+  <FormDivider />
+  <Field
+    component={[Function]}
+    defaultValue="GBP"
+    label="Currency"
+    name="currency"
+    required={true}
+    validate={
+      Array [
+        [Function],
+      ]
+    }
+  >
+    <Option
+      value="GBP"
+    >
+      £ GBP
+    </Option>
+    <Option
+      value="USD"
+    >
+      $ USD
+    </Option>
+    <Option
+      value="EUR"
+    >
+      € EUR
+    </Option>
+  </Field>
+  <React.Fragment>
+    <Field
+      component={[Function]}
+      hasFeedback={true}
+      label="Discount code"
+      name="discount_code"
+    />
+    <FormDivider />
+    <Field
+      component={[Function]}
+      name="line_items"
+      required={true}
+      validate={
+        Array [
+          [Function],
+        ]
+      }
+    />
+    <FormDivider />
+    <Field
+      component={[Function]}
+      label="Shipping address"
+      name="shipping_address_id"
+      required={true}
+      validate={
+        Array [
+          [Function],
+        ]
+      }
+    />
+    <Field
+      component={[Function]}
+      label="Shipping rate"
+      name="shipping_rate_id"
+      required={true}
+      validate={
+        Array [
+          [Function],
+        ]
+      }
+    />
+    <Field
+      component={[Function]}
+      label="payment_token"
+      name="payment_token"
+    />
+  </React.Fragment>
+  <FormSubmit />
+</Form>
+`;

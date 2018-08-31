@@ -1,0 +1,52 @@
+@import '../../styles/colors.scss';
+
+.ant-alert {
+  color: $text-1;
+  font-size: 12px;
+}
+
+.ant-alert.ant-alert-success {
+  .ant-alert-icon {
+    color: $success-0;
+  }
+}
+
+.ant-alert.ant-alert-error {
+  .ant-alert-icon {
+    color: $error-0;
+  }
+}
+
+.ant-alert.ant-alert-with-description {
+  padding: 16px 16px 16px 60px;
+
+  .ant-alert-message {
+    font-weight: 500;
+    color: $text-0;
+  }
+
+  .ant-alert-description {
+    color: $text-1;
+    font-size: 12px;
+  }
+
+  .ant-alert-icon {
+    top: 20px;
+    left: 20px;
+    right: inherit;
+  }
+  .ant-alert.ant-alert-with-description.ant-alert-no-icon {
+    padding: 12px 48px 12px 16px;
+  }
+  .ant-alert-close-icon {
+    right: 16px;
+    left: inherit;
+  }
+}
+.ant-alert.ant-alert-no-icon {
+  padding: 12px 48px 12px 16px;
+}
+.ant-alert-close-icon {
+  right: 16px;
+  left: inherit;
+}

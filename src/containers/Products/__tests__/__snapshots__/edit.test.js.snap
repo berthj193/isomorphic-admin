@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<EditProduct /> should render error properly 1`] = `
+<LayoutWrapper
+  style={
+    Object {
+      "minHeight": "100vh",
+    }
+  }
+>
+  <LayoutContent>
+    <h1>
+      Product
+    </h1>
+    <ButtonList
+      buttons={
+        Array [
+          Object {
+            "link": "/dashboard/products/1",
+            "title": "Go back",
+          },
+        ]
+      }
+    />
+    <ReduxFormWrapper
+      initialValues={
+        Object {
+          "defaultDescription": "Hyper Uber Master Description",
+          "default_master_sku": "MasterSKU",
+          "default_name": "MasterName",
+          "id": "1",
+        }
+      }
+      onSubmit={[Function]}
+    />
+    <Error
+      error="Product not Found!"
+    />
+  </LayoutContent>
+</LayoutWrapper>
+`;
+
+exports[`<EditProduct /> should render loading, if product can't be found 1`] = `
+<PageLoading
+  style={
+    Object {
+      "height": "50vh",
+    }
+  }
+/>
+`;
+
+exports[`<EditProduct /> should render product properly 1`] = `
+<LayoutWrapper
+  style={
+    Object {
+      "minHeight": "100vh",
+    }
+  }
+>
+  <LayoutContent>
+    <h1>
+      Product
+    </h1>
+    <ButtonList
+      buttons={
+        Array [
+          Object {
+            "link": "/dashboard/products/1",
+            "title": "Go back",
+          },
+        ]
+      }
+    />
+    <ReduxFormWrapper
+      initialValues={
+        Object {
+          "defaultDescription": "Hyper Uber Master Description",
+          "default_master_sku": "MasterSKU",
+          "default_name": "MasterName",
+          "id": "1",
+        }
+      }
+      onSubmit={[Function]}
+    />
+    <Error />
+  </LayoutContent>
+</LayoutWrapper>
+`;

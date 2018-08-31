@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Orders /> should map and pass orders to table component 1`] = `
+<withRouter(ItemList)
+  buttons={
+    Array [
+      Object {
+        "link": "/dashboard/orders/new",
+        "title": "New form",
+      },
+    ]
+  }
+  columns={
+    Array [
+      Object {
+        "dataIndex": "id",
+        "key": "id",
+        "title": "ID",
+      },
+      Object {
+        "dataIndex": "customer_name",
+        "key": "customer_name",
+        "title": "Name",
+      },
+      Object {
+        "dataIndex": "email",
+        "key": "email",
+        "title": "Email",
+      },
+      Object {
+        "dataIndex": "created_at",
+        "key": "created_at",
+        "title": "Ordered At",
+      },
+      Object {
+        "dataIndex": "status",
+        "key": "status",
+        "title": "Status",
+      },
+      Object {
+        "dataIndex": "grand_total",
+        "key": "grand_total",
+        "title": "Order Total",
+      },
+    ]
+  }
+  data={Array []}
+  loading={true}
+  title="Orders"
+/>
+`;
+
+exports[`<Orders /> should render properly 1`] = `
+<withRouter(ItemList)
+  buttons={
+    Array [
+      Object {
+        "link": "/dashboard/orders/new",
+        "title": "New form",
+      },
+    ]
+  }
+  columns={
+    Array [
+      Object {
+        "dataIndex": "id",
+        "key": "id",
+        "title": "ID",
+      },
+      Object {
+        "dataIndex": "customer_name",
+        "key": "customer_name",
+        "title": "Name",
+      },
+      Object {
+        "dataIndex": "email",
+        "key": "email",
+        "title": "Email",
+      },
+      Object {
+        "dataIndex": "created_at",
+        "key": "created_at",
+        "title": "Ordered At",
+      },
+      Object {
+        "dataIndex": "status",
+        "key": "status",
+        "title": "Status",
+      },
+      Object {
+        "dataIndex": "grand_total",
+        "key": "grand_total",
+        "title": "Order Total",
+      },
+    ]
+  }
+  data={Array []}
+  loading={true}
+  title="Orders"
+/>
+`;

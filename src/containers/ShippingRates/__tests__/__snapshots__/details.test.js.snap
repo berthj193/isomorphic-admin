@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShippingRateDetails /> should render details with provider 1`] = `
+<ComponentWithProvider
+  startRequest={[Function]}
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+/>
+`;
+
+exports[`<ShippingRateDetails /> should render loading page 1`] = `
+<React.Fragment>
+  <LayoutWrapper
+    style={
+      Object {
+        "minHeight": "100vh",
+      }
+    }
+  >
+    <LayoutContent>
+      <h1>
+        Warehouses
+      </h1>
+      <ButtonList
+        buttons={
+          Array [
+            Object {
+              "link": "/dashboard/shipping_rates",
+              "title": "Go back",
+            },
+            Object {
+              "link": "/dashboard/shipping_rates/undefined/edit",
+              "title": "Edit",
+            },
+          ]
+        }
+      />
+      <PageDetails
+        details={
+          Array [
+            Object {
+              "Country": undefined,
+            },
+            Object {
+              "Name": undefined,
+            },
+            "---",
+            Object {
+              "Is premium": "No",
+            },
+            Object {
+              "Is live": "No",
+            },
+            "---",
+            Object {
+              "Updated at": undefined,
+            },
+          ]
+        }
+      />
+    </LayoutContent>
+  </LayoutWrapper>
+</React.Fragment>
+`;
+
+exports[`<ShippingRateDetails /> should render properly 1`] = `
+<PageLoading
+  style={
+    Object {
+      "height": "50vh",
+    }
+  }
+/>
+`;
